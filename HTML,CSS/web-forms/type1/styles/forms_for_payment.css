@@ -1,0 +1,49 @@
+form {
+    background-color: rgb(200, 185, 185);
+    width: 30%;
+    margin: 5px auto;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+input {
+    width: 37%;
+}
+
+fieldset {
+    width: 44%;
+    float: right;
+    height: 133px;
+}
+
+fieldset ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 68%;
+    width: 70%;
+}
+
+#middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.lower button {
+    display: block;
+    margin: auto;
+}
+
+.lower {
+    margin: 10px;
+}
+
+#upper {
+    padding: 10px;
+}
