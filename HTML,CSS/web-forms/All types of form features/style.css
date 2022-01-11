@@ -1,0 +1,12 @@
+form {
+    width: 40%;
+    margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+fieldset ul li {
+    margin: 10px 0;
+}
