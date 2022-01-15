@@ -1,5 +1,5 @@
 	
-#All inputs types in HTML forms
+# All inputs types in HTML forms
 > Live demo(not yet available) [_here_](https://www.example.com).
 
 ## Table of Contents
