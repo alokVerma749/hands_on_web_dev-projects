@@ -1,6 +1,6 @@
 	
 # Project Name
->Basic paymennt page(begineer friendly),
+>Basic payment page(beginner friendly),
 > Live demo(not yet available) [_here_](https://www.example.com).
 
 ## Technologies Used
