@@ -36,7 +36,7 @@ List of features here:
 ![Example screenshot](https://github.com/alokVerma749/hands_on_web_dev-projects/blob/master/Begineer%20Friendly/HTML%2BCSS%2BJavascript/birdWatching/screenshots/Untitled.png)
 
 ## Video Representattion
-![Example Video](https://github.com/alokVerma749/hands_on_web_dev-projects/blob/master/Begineer%20Friendly/HTML%2BCSS%2BJavascript/birdWatching/video/Birds%20Watching%20-%20Google%20Chrome%202022-01-19%2014-16-24.mp4)
+![Example Video](https://youtu.be/V8MbuLOIskI)
 
 ## Contact
 Created by [Alok Verma](https://www.twitter.com/alok_std) - feel free to contact me!
