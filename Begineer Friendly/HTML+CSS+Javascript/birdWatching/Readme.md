@@ -31,12 +31,9 @@ List of features here:
 - Using Description List
 - Rendering computer code anfd its output
 
+## Visual Representation(Click on picture to watch video representation)
+[![BirdWatch Website](https://github.com/alokVerma749/hands_on_web_dev-projects/blob/master/Begineer%20Friendly/HTML%2BCSS%2BJavascript/birdWatching/screenshots/Untitled.png)](https://www.youtube.com/watch?v=V8MbuLOIskI "Watch the video representation - Click to Watch!")
 
-## Screenshots
-![Example screenshot](https://github.com/alokVerma749/hands_on_web_dev-projects/blob/master/Begineer%20Friendly/HTML%2BCSS%2BJavascript/birdWatching/screenshots/Untitled.png)
-
-## Video Representattion
-![Example Video](https://youtu.be/V8MbuLOIskI)
 
 ## Contact
 Created by [Alok Verma](https://www.twitter.com/alok_std) - feel free to contact me!
