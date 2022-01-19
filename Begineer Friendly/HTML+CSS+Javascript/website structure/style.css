@@ -1,0 +1,67 @@
+body {
+    background-color: gray;
+}
+
+nav {
+    background-color: hotpink;
+    height: 10vh;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+nav ul li {
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+nav ul button {
+    width: 82px;
+    height: 28px;
+    background-color: black;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+main {
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    height: 72vh;
+}
+
+main article {
+    padding: 10px;
+    background-color: aliceblue;
+    width: 77vw;
+}
+
+main aside {
+    width: 19vw;
+    background-color: hotpink;
+}
+
+main article h1 {
+    text-align: center;
+}
+
+main aside h3 {
+    text-align: center;
+}
+
+footer {
+    background-color: aliceblue;
+    text-align: center;
+    margin: 20px 0;
+    height: 60px;
+}

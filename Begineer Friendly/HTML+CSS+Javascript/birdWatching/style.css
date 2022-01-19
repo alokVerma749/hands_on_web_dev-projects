@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: gray;
+}
+
+.head {
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    justify-content: center;
+    height: 60%;
+    font-family: 'Lobster', cursive;
+}
+
+#logo {
+    margin: 0 0 0 78%;
+}
+
+.head h1 {
+    text-align: center;
+    position: absolute;
+}
+
+header {
+    background-color: green;
+    height: 20vh;
+}
+
+header nav {
+    background-color: rgb(21, 179, 21);
+    height: 40%;
+}
+
+header nav ul {
+    height: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+header nav ul li a {
+    text-decoration: none;
+}
+
+header ul li {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    margin: 10px 0;
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main article {
+    background-color: rgb(21, 179, 21);
+    width: 78vw;
+    font-size: 1.2em;
+    font-weight: 50;
+}
+
+main article h3 {
+    padding: 30px;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+main article h3 {
+    text-align: center;
+}
+
+main aside {
+    background-color: rgb(21, 179, 21);
+    width: 20vw;
+}
+
+main aside h3 {
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+main aside div {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photos img {
+    margin: 5px;
+}
+
+footer {
+    margin-top: 30px;
+    background-color: green;
+    height: 20%;
+    text-align: center;
+}
+
+footer a {
+    color: rgb(28, 7, 148);
+    text-decoration: none;
+}
