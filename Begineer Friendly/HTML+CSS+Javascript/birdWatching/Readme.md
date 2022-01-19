@@ -33,7 +33,7 @@ List of features here:
 
 
 ## Screenshots
-![Example screenshot](https://github.com/alokVerma749/hands_on_web_dev-projects/blob/master/HTML%2CCSS/HTML+CSS+Javascript/birdWatching/screenshots/Untitled.png)
+![Example screenshot](https://github.com/alokVerma749/hands_on_web_dev-projects/blob/master/Begineer%20Friendly/HTML%2BCSS%2BJavascript/birdWatching/screenshots/Untitled.png)
 
 ## Video Representattion
 ![Example Video]()
