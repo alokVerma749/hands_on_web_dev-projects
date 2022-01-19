@@ -48,10 +48,17 @@ header nav ul li a {
 }
 
 header ul li {
+    width: 6em;
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
+}
+
+header ul li:hover {
+    font-weight: bolder;
+    border-radius: 15px;
+    background-color: rgb(79, 235, 79);
 }
 
 main {
