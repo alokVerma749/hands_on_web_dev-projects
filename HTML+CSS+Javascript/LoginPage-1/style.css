@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap");
+:root {
+  --bg-color: #cad5e2;
+  --btn-font-color-light: #ffffff;
+  --btn-font-color-dark: #0d4b56;
+  --text-color: #1a044f;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: "Montserrat", sans-serif;
+  height: fit-content;
+}
+.btn-font {
+  color: var(--btn-font-color-light);
+  font-size: 15px;
+  font-weight: 900;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+.btn-font:hover {
+  font-size: 16px;
+  border: 1px solid var(--btn-font-color-dark);
+}
+.container {
+  display: flex;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: fit-content;
+  margin: 70px 0;
+}
+.right h2 {
+  color: var(--text-color);
+  text-align: center;
+  font-size: xx-large;
+}
+.right .form {
+  width: 90%;
+  height: 90%;
+  padding: 10px;
+}
+.right .upper {
+  display: flex;
+  flex-direction: column;
+}
+.right .upper .upper-input {
+  display: flex;
+  flex-direction: column;
+  height: 60%;
+  width: 100%;
+  margin: 0 auto;
+}
+.right .upper .upper-input input {
+  width: 80%;
+  height: 3em;
+  margin: 10px auto;
+  padding: 5px 0 5px 25px;
+  border: none;
+  border-radius: 25px;
+  color: #868e96;
+  font-size: 15px;
+  font-weight: 900;
+}
+.right .upper .upper-input input::placeholder {
+  padding: 5px 0 0 15px;
+}
+.right .upper .upper-btn button {
+  color: var(--btn-font-color-dark);
+  width: 20%;
+  height: 3em;
+  margin: 10px auto;
+  padding: 5px;
+}
+
+.right .upper .upper-btn {
+  display: flex;
+  margin: 5px 15px;
+}
+.lower .lower-btn {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+.lower .lower-btn button {
+  width: 80%;
+  height: 3em;
+  margin: 10px auto;
+  padding: 5px;
+}
+#facebook-btn {
+  background-color: #4267b2;
+}
+#github-btn {
+  background-color: #868e96;
+}
+.left {
+  width: 50%;
+  color: var(--text-color);
+  height: fit-content;
+}
+.left .content {
+  margin: 20% auto;
+  height: 100%;
+}
+.left .logo {
+  max-width: fit-content;
+  max-height: fit-content;
+  margin: 0 auto;
+}
+.left .logo img {
+  height: 200px;
+  margin: 0 auto;
+}
+
+.left .company {
+  margin-top: -35px;
+}
+.left .company h1 {
+  text-align: center;
+  font-size: 4rem;
+}
+
+.left .content .quote p {
+  text-align: center;
+  letter-spacing: 3px;
+  font-size: 1.2rem;
+  font-weight: 900;
+  color: #868e96;
+}
