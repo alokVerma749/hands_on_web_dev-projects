@@ -1,0 +1,62 @@
+h1{
+    color: red;
+    text-align: center;
+}
+.container{
+    width: 50%;
+    height: 100px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.container ul li{
+    border: 1px solid green;
+    padding: 5px;
+    font-size: 20px;
+    box-shadow: 1px 1px 3px 2px rgb(109, 108, 108);
+    border-radius: 20px;
+    width: 20px;
+    height: 20px;
+}
+.red{
+    background-color: red;
+}
+.green{
+    background-color: green;
+}
+.blue{
+    background-color: blue;
+}
+.orange{
+    background-color: orange;
+}
+.yellow{
+    background-color: yellow;
+}
+.colourName{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    transition-duration: .7s;
+}
+.container ul li:hover{
+    width: 30px;
+    height: 30px;
+    box-shadow: 1px 1px 3px 2px rgb(178, 174, 174);
+    color: #fff;
+    transition-duration: 0.8s;
+    cursor: pointer;
+}
+@media screen and (max-width:600px){
+    .container ul{
+        flex-direction: column;
+    }
+    .container{
+        width: 90%;
+    }
+}
