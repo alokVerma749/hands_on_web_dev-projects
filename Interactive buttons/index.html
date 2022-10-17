@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interarctive buttons</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="good-box box">
+            <input type="checkbox" name="good" id="good" class="checkbox" value="off" onclick="handleClick(this)">
+            <label for="good" class="toggle"></label>
+            <div class="text">GOOD</div>
+        </div>
+        <div class="cheap-box box">
+            <input type="checkbox" name="cheap" id="cheap" class="checkbox" value="off" onclick="handleClick(this)">
+            <label for="cheap" class="toggle"></label>
+            <div class="text">CHEAP</div>
+        </div>
+        <div class="fast-box box">
+            <input type="checkbox" name="fast" id="fast" class="checkbox" value="off" onclick="handleClick(this)">
+            <label for="fast" class="toggle"></label>
+            <div class="text">FAST</div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
